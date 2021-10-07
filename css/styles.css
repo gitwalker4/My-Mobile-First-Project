@@ -89,6 +89,10 @@ hr {
   justify-content: space-between;
 }
 
+.bottom-nav {
+  display: none;
+}
+
 /* Media Queries */ 
 
 @media (min-width: 768px) {
@@ -154,6 +158,20 @@ hr {
     padding: 1em 0;
   }
 
+  #back {
+    display: none;
+  }
+
+  .bottom-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bottom-nav a {
+    padding: 1em 0 1em 1em;
+  }
 }
 
 @media (min-width: 1024px) {
