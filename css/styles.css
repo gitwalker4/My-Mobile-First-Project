@@ -123,7 +123,7 @@ hr {
 
   .bio {
     margin-top: 0;
-    padding: 0 1em;
+    padding: 0 16px;
     order: -1;
   }
 
@@ -151,7 +151,7 @@ hr {
   }
 
   .profile {
-    padding-right: 1em;
+    padding-right: 16px;
   }
 
   .contact {
