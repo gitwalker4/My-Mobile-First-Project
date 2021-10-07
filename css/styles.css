@@ -20,8 +20,12 @@ ul {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
+}
+
+a:hover {
+  color: plum;
 }
 
 h1 {
