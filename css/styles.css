@@ -58,7 +58,8 @@ hr {
 }
 
 .nav {
-  background-image: linear-gradient(35deg, rgba(255,255,255,.25) 25%, rgba(161,57,88,.25) 75%);  padding: .5em;
+  background-image: linear-gradient(35deg, rgba(255,255,255,.25) 25%, rgba(161,57,88,.25) 75%);  
+  padding: .5em;
   margin: .5em auto;
   border: 2px solid plum;
   border-radius: 5%;
