@@ -170,7 +170,7 @@ hr {
   .sec {
     margin: 1em auto;
     padding: 1em;
-    max-width: 27%;
+    max-width: 50%;
   }
 
   .profile {
@@ -213,6 +213,11 @@ hr {
   .name {
     padding-left: .5em;
   }
+
+  .sec {
+    max-width: 33%;
+  }
+
   
   #interest {
     margin: 1em 2.5em;
