@@ -56,6 +56,13 @@ hr {
 	padding: .3125rem 1rem;
 }
 
+.nav {
+  background-color: white;
+  padding: .5em;
+  margin: .5em auto;
+  max-width: 49%;    
+}
+
 .intro {
   text-align: center;
   font-size: 1.15em;
@@ -116,6 +123,10 @@ hr {
   .main-header {
     flex-direction: column;
     align-items: center;
+  }
+
+  .nav {
+    background-color: transparent;
   }
 
   .intro {
@@ -198,5 +209,9 @@ hr {
   #interest {
     margin: 1em 2.5em;
     padding: 0 2.5em;
+  }
+
+  li.nav {
+    padding-right: 0;
   }
 }
