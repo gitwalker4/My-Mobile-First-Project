@@ -111,6 +111,22 @@ hr {
   display: none;
 }
 
+#skills h3 {
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#skills li {
+  background-image: linear-gradient(35deg, rgba(187,15,199,.35) 25%, rgba(161,57,88,.35) 75%);  
+  border: 2px solid plum;
+  border-radius: 5%;
+  margin: 1em auto;
+  padding: 1em;
+  text-align: center;
+  max-width: 49%;
+}
+
 /* Media Queries */ 
 
 @media (min-width: 768px) {
@@ -195,6 +211,18 @@ hr {
 
   .bottom-nav a {
     padding: 1em 0 1em 1em;
+  }
+
+  #skills li {
+    margin: 0 1em; 
+    padding: 1em 2em;
+  }
+
+  .ability {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
 
